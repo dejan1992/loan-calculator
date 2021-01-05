@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <title>Loan Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card"></div>
+    <h1 class="heading">Loan Calculator</h1>
+    <form id="loan-form">
+      <input id="amount" type="number" placeholder="Loan Amount">
+      <input id="interest" type="number" placeholder="Interest %">
+      <input id="ytr" type="number" placeholder="Years To Repay">
+    </form>
+    <button class="btn">Calculate</button>
+
+    <!-- <div id="loading">
+      <img src="loading.gif" alt="">
+    </div> -->
+    <h3>Results</h3>
+    <form id="result-form">
+      <label for="">Monthly Payment</label>
+      <input id="monthly-payment" type="number" placeholder="Monthly Payment" disabled>
+      <label for="">Total Payment</label>
+      <input id="total-payment" type="number" placeholder="Total Payment" disabled>
+      <label for="">Total Interest</label>
+
+      <input id="total-interest" type="number" placeholder="Total Interest" disabled>
+    </form>
+    <button class="btn1">New Calculation</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

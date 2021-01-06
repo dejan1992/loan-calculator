@@ -67,3 +67,20 @@ label{
     color: red;
 
 }
+
+@media (max-width: 768px){
+
+    label{
+        display: block;
+    }
+    #result-form input{
+        margin: 10px 0;
+        text-align: center;
+        width: 55%;
+
+    }
+
+    #result-form{
+        text-align: center;
+    }
+}
